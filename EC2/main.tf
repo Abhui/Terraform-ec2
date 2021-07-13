@@ -1,5 +1,7 @@
 provider "aws" {
   region = "${var.aws_region}"
+  access_key = "xxxxxxxx"
+  secret_key = "xxxxxxxx"	
 }
 
 # Creating a VPC
